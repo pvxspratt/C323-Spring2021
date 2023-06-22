@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Author" representedClassName="Author" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Video" inverseName="whoUploaded" inverseEntity="Video"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES" codeGenerationType="class">
+        <attribute name="subtitles" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailData" optional="YES" attributeType="Binary"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uploadDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="videoURL" optional="YES" attributeType="String"/>
+        <relationship name="whoUploaded" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="videos" inverseEntity="Author"/>
+    </entity>
+    <elements>
+        <element name="Video" positionX="-232.2578125" positionY="-127.66796875" width="128" height="148"/>
+        <element name="Author" positionX="-47.890625" positionY="-218.4140625" width="128" height="73"/>
+    </elements>
+</model>
