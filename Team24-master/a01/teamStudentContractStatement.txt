@@ -1,0 +1,39 @@
+C323 - Assignment 01
+Team 24 
+Phoebe Spratt || phospra@iu.edu
+Christian Elliott || elliotcp@iu.edu
+Milton Hinnant || hinnant@indiana.edu
+April 20, 2021
+
+Team/Student Contract statement
+
+A. timeline
+1. By assignment 02 we will have:
+	user interface: input/output of units, weight, plant name, recommended amount of 
+					water per day, amount of water drank/watered so far
+					views/controllers for main view controller, setting/status/history 
+					tab view, split view for settings(body info, units, sounds, reminder)
+					table view controller for history(see amount of water you drank for
+					past days)
+	Persistent settings/preferences: the units, your body info, the plant, and cups will
+									all be stored so it will not have to be set every
+									time you open the app. It'll stay the same until you
+									choose to change it.
+	
+	We'll be using core data and core graphics. We will also make use of SpriteKit and
+		User Notifications.
+	
+For the Final we'll do the finishing touches. We will implement whatever we did not get
+to for assignment 02, and make sure everything works.
+
+2. At least the main functionality of calculating the recommended amount of water you should
+drink, planting your buddy and naming it, and the watering/drinking method will be 
+submitted by assignment 02
+
+
+B. grading
+1. for assignment 02 we'll have what we already said in the second part of the A timeline
+	that is right above this. For the final project we'll do what we said in the first
+	part of the A timeline right above.
+2. main functionalities(and whatever else we finish) before/by Tuesday April 27.
+	rest of functionalities and finishing touches before/by Tuesday May 4.

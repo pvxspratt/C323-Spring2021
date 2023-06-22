@@ -1,0 +1,42 @@
+C323 - Assignment 02
+Team 24 - Botanical Buddies
+Phoebe Spratt || phospra@iu.edu
+Christian Elliott || elliotcp@iu.edu
+April 27, 2021
+
+Design Team:
+a. our design for A01 turned out to be a lot more than we had expected. We took away the 
+	plant buddy (for now but most likely for all) and now it's just a regular keep track
+	of how much water you need to drink and calculate that recommended amount based on 
+	weight and activity level.
+b. in a02, we have completed all the views, input/output, persistance, and started with Core Data.
+	We still need to finish up the user Notifications and making the app look pretty
+	
+Evaluating Assignment 01 design documentation
+a.	Our documentation was good and detailed and it implemented what we want to.
+	1. Our A01 followed the MVC design and so does the a02.
+	2. All required user interface elements were correctly incorporated
+	3. We planned to uses substantial use of all the frameworks; core data, and  user 
+		notifications
+	
+b.	A02 beta went well, but some of the stuff from a01 was a little too much for us to 
+	get done completely, but for the most part we were able to follow it and implement what
+	we wanted to. some still need to be fixed up so they do exactly what we want but they 
+	are coming along.
+	What we have:
+		- all the view controllers and the segues for them
+		- all the view controller files and the Model
+		- functions for calculating recommended amount of water
+		- almost all buttons are working
+		- persistant data
+		- good start of core data implementation
+		- labels and they change when the data changes
+	
+	What we need to do:
+		- finish core data
+		- user notifications
+		- maybe UIPickerView
+		- making app look pretty
+		
+We followed all Swift language conventions and the requirements specifications for both
+a01 and a02

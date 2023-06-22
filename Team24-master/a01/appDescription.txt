@@ -1,0 +1,43 @@
+C323 - Assignment 01
+Team 24
+Team 24 
+Phoebe Spratt || phospra@iu.edu
+Christian Elliott || elliotcp@iu.edu
+Milton Hinnant || hinnant@indiana.edu
+April 20, 2021
+
+"Botanical Buddies"
+
+App description:
+"Botanical Buddies" keeps track of how much water you drink a day. It also gives you a
+little botanical buddy that you have to care for. To keep your buddy healthy, you have
+to water them so every time you have a drink of water you also water your buddy.
+
+The first time you open your app you are asked how much you weigh. Then you are asked
+the level of activity you are: not really active, regular amount of active, and very
+active. Then it asks you what unit for the water you'd like to use, oz or mL. The app 
+takes your weight and then it calculates the recommended amount of water you should drink 
+a day. It will save that data as your body info. So that's our persistent settings.
+
+After your body info is all figured out then you choose your buddy. There will be 
+different options of what kind of plant you want. It could be I'm not quite sure yet, but
+maybe like a sunflower, or a cactus, a rose, a potato? Then we might make the pot be 
+able to be changed, but that might be too much. Then after you choose your buddy, you
+name your buddy. Then it goes to the screen that will be the main screen from now on. 
+
+Under the buddy, there is the cups shelf. So you can choose the different cup that you
+would like to use. The different cups will be a normal cup, a (reusable) water bottle (bc
+we care about the earth), a big cup. Then you could also maybe change the volume of the
+cup. After you choose it the cup will show up next to your buddy and to water the buddy
+you will tap(or maybe hold down on) the cup.
+
+There will be a thing that shows how much water left you need to drink and also what 
+level and also health your buddy is at. Once it's at level three maybe we haven't decided
+it will be full grown and you choose another buddy to plant. The other buddy is put in
+the book of old buddies. That'll be the table view probably.
+
+There's a settings page where you could change any settings you mind need to, like maybe
+your weight or maybe you want to change the units. We maybe will make a reminder to drink
+that will be maybe every 4 hours. But that's only a maybe.
+
+Also I just reread and saw that this was supposed to be brief, so sorry about that.

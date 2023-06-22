@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD96817A26388EF800C6F352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96817926388EF800C6F352 /* AppDelegate.swift */; };
+		CD96817C26388EF800C6F352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96817B26388EF800C6F352 /* SceneDelegate.swift */; };
+		CD96817E26388EF800C6F352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96817D26388EF800C6F352 /* ViewController.swift */; };
+		CD96818126388EF800C6F352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD96817F26388EF800C6F352 /* Main.storyboard */; };
+		CD96818426388EF800C6F352 /* BotanicalBuddies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD96818226388EF800C6F352 /* BotanicalBuddies.xcdatamodeld */; };
+		CD96818626388EFD00C6F352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD96818526388EFD00C6F352 /* Assets.xcassets */; };
+		CD96818926388EFD00C6F352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD96818726388EFD00C6F352 /* LaunchScreen.storyboard */; };
+		CD96819326389C6A00C6F352 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96819226389C6900C6F352 /* HistoryViewController.swift */; };
+		CD96819626389C8000C6F352 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96819526389C8000C6F352 /* StatusViewController.swift */; };
+		CD96819926389C8D00C6F352 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96819826389C8D00C6F352 /* SettingsViewController.swift */; };
+		CD96819E2638A76900C6F352 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96819D2638A76800C6F352 /* HistoryTableViewController.swift */; };
+		CD9681A12638A9E200C6F352 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9681A02638A9E200C6F352 /* HistoryTableViewCell.swift */; };
+		CD9681A52638D37F00C6F352 /* PersonalSettingsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9681A42638D37E00C6F352 /* PersonalSettingsDataModel.swift */; };
+		CD9681A92638D64700C6F352 /* BotanicalBuddies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9681A82638D64700C6F352 /* BotanicalBuddies.swift */; };
+		CD9681B02638DE3400C6F352 /* AppInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9681AF2638DE3300C6F352 /* AppInfoModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD96817626388EF800C6F352 /* BotanicalBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotanicalBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96817926388EF800C6F352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD96817B26388EF800C6F352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD96817D26388EF800C6F352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD96818026388EF800C6F352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD96818326388EF800C6F352 /* BotanicalBuddies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BotanicalBuddies.xcdatamodel; sourceTree = "<group>"; };
+		CD96818526388EFD00C6F352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD96818826388EFD00C6F352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD96818A26388EFD00C6F352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD96819226389C6900C6F352 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		CD96819526389C8000C6F352 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		CD96819826389C8D00C6F352 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CD96819D2638A76800C6F352 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		CD9681A02638A9E200C6F352 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		CD9681A42638D37E00C6F352 /* PersonalSettingsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSettingsDataModel.swift; sourceTree = "<group>"; };
+		CD9681A82638D64700C6F352 /* BotanicalBuddies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicalBuddies.swift; sourceTree = "<group>"; };
+		CD9681AF2638DE3300C6F352 /* AppInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD96817326388EF800C6F352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD96816D26388EF800C6F352 = {
+			isa = PBXGroup;
+			children = (
+				CD96817826388EF800C6F352 /* BotanicalBuddies */,
+				CD96817726388EF800C6F352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD96817726388EF800C6F352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD96817626388EF800C6F352 /* BotanicalBuddies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD96817826388EF800C6F352 /* BotanicalBuddies */ = {
+			isa = PBXGroup;
+			children = (
+				CD96817926388EF800C6F352 /* AppDelegate.swift */,
+				CD96817B26388EF800C6F352 /* SceneDelegate.swift */,
+				CD96817D26388EF800C6F352 /* ViewController.swift */,
+				CD9681A72638D5CE00C6F352 /* Application */,
+				CD9681AC2638D6B700C6F352 /* ViewControllers */,
+				CD96817F26388EF800C6F352 /* Main.storyboard */,
+				CD96818526388EFD00C6F352 /* Assets.xcassets */,
+				CD96818726388EFD00C6F352 /* LaunchScreen.storyboard */,
+				CD96818A26388EFD00C6F352 /* Info.plist */,
+				CD96818226388EF800C6F352 /* BotanicalBuddies.xcdatamodeld */,
+			);
+			path = BotanicalBuddies;
+			sourceTree = "<group>";
+		};
+		CD9681A72638D5CE00C6F352 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CD9681A42638D37E00C6F352 /* PersonalSettingsDataModel.swift */,
+				CD9681AF2638DE3300C6F352 /* AppInfoModel.swift */,
+				CD9681A82638D64700C6F352 /* BotanicalBuddies.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		CD9681AC2638D6B700C6F352 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD96819D2638A76800C6F352 /* HistoryTableViewController.swift */,
+				CD9681A02638A9E200C6F352 /* HistoryTableViewCell.swift */,
+				CD96819226389C6900C6F352 /* HistoryViewController.swift */,
+				CD96819526389C8000C6F352 /* StatusViewController.swift */,
+				CD96819826389C8D00C6F352 /* SettingsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD96817526388EF800C6F352 /* BotanicalBuddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD96818D26388EFD00C6F352 /* Build configuration list for PBXNativeTarget "BotanicalBuddies" */;
+			buildPhases = (
+				CD96817226388EF800C6F352 /* Sources */,
+				CD96817326388EF800C6F352 /* Frameworks */,
+				CD96817426388EF800C6F352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotanicalBuddies;
+			productName = BotanicalBuddies;
+			productReference = CD96817626388EF800C6F352 /* BotanicalBuddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD96816E26388EF800C6F352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CD96817526388EF800C6F352 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CD96817126388EF800C6F352 /* Build configuration list for PBXProject "BotanicalBuddies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD96816D26388EF800C6F352;
+			productRefGroup = CD96817726388EF800C6F352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD96817526388EF800C6F352 /* BotanicalBuddies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD96817426388EF800C6F352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96818926388EFD00C6F352 /* LaunchScreen.storyboard in Resources */,
+				CD96818626388EFD00C6F352 /* Assets.xcassets in Resources */,
+				CD96818126388EF800C6F352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD96817226388EF800C6F352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9681A12638A9E200C6F352 /* HistoryTableViewCell.swift in Sources */,
+				CD9681A92638D64700C6F352 /* BotanicalBuddies.swift in Sources */,
+				CD96819E2638A76900C6F352 /* HistoryTableViewController.swift in Sources */,
+				CD9681A52638D37F00C6F352 /* PersonalSettingsDataModel.swift in Sources */,
+				CD96817E26388EF800C6F352 /* ViewController.swift in Sources */,
+				CD9681B02638DE3400C6F352 /* AppInfoModel.swift in Sources */,
+				CD96817A26388EF800C6F352 /* AppDelegate.swift in Sources */,
+				CD96819926389C8D00C6F352 /* SettingsViewController.swift in Sources */,
+				CD96818426388EF800C6F352 /* BotanicalBuddies.xcdatamodeld in Sources */,
+				CD96819326389C6A00C6F352 /* HistoryViewController.swift in Sources */,
+				CD96819626389C8000C6F352 /* StatusViewController.swift in Sources */,
+				CD96817C26388EF800C6F352 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD96817F26388EF800C6F352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD96818026388EF800C6F352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD96818726388EFD00C6F352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD96818826388EFD00C6F352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD96818B26388EFD00C6F352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD96818C26388EFD00C6F352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD96818E26388EFD00C6F352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotanicalBuddies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-phospra.BotanicalBuddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD96818F26388EFD00C6F352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BotanicalBuddies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-phospra.BotanicalBuddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD96817126388EF800C6F352 /* Build configuration list for PBXProject "BotanicalBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96818B26388EFD00C6F352 /* Debug */,
+				CD96818C26388EFD00C6F352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD96818D26388EFD00C6F352 /* Build configuration list for PBXNativeTarget "BotanicalBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96818E26388EFD00C6F352 /* Debug */,
+				CD96818F26388EFD00C6F352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD96818226388EF800C6F352 /* BotanicalBuddies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD96818326388EF800C6F352 /* BotanicalBuddies.xcdatamodel */,
+			);
+			currentVersion = CD96818326388EF800C6F352 /* BotanicalBuddies.xcdatamodel */;
+			path = BotanicalBuddies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD96816E26388EF800C6F352 /* Project object */;
+}
